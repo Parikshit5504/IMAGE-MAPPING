@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image mapping</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        .center {
+            margin: auto;
+            padding: 50px;
+            text-align: center;
+            border: 3px solid blueviolet;
+            width: 50%;
+            text-decoration: overline;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+        
+        .column2 {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+        }
+        
+        .column3 {
+            float: right;
+            width: 33.33%;
+            padding: auto;
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        /* .home {
+            width: 30%;
+            height: 50px;
+            border: 10px solid transparent;
+            float: left;
+        }
+        
+        .Aboutus {
+            width: 200px;
+            height: 150px;
+            float: ;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="center">
+        <h1>IMAGE MAPPING</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <map name="homepage">
+                <area shape="rect" coords="0,0,597,596" href="home.html"/>
+            </map>
+            <h1> <img src="image/home.jpg" alt="HOME" usemap="#homepage" width="100%"><br>HOMEPAGE</h1>
+        </div>
+        <div class="column">
+            <h1><img src="image/services.png" alt="SERVICE" usemap="#services" width="100%">SERVICE</h1>
+            <map name="services">
+                <area shape="rect" coords="0,0,597,596" href="service.html"/>
+            </map>
+        </div>
+        <div class="column">
+            <h1><img src="image/aboutus.png" alt="ABOUT US" usemap="#aboutus" width="100%">ABOUT US</h1>
+            <map name="aboutus">
+                <area shape="rect" coords="0,0,597,596" href="aboutus.html"/>
+            </map>
+
+        </div>
+    </div>
+    <div class="row2">
+        <div class="column2">
+            <map name="contactus">
+            <area shape="rect" coords="0,0,597,596" href="contactus.html"/>
+        </map>
+            <h1> <img src="image/CONTACT.png" alt="contact" usemap="#contactus" width="100%">CONTACT US</h1>
+
+        </div>
+        <div class="column3">
+            <map name="blog">
+                <area shape="rect" coords="0,0,597,596" href="blog.html">
+            </map>
+            <h1><img src="image/blog.jpg" alt="blog" usemap="#blog" width="100%">BLOG</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
