@@ -1,7 +1,7 @@
 # IMAGE-MAPPING
 
 FIRST PAGE
-![output](https://user-images.githubusercontent.com/83118372/129350398-154e05c6-49b1-4ba1-94c0-1f3a04cad297.PNG
+![output](https://user-images.githubusercontent.com/83118372/129350398-154e05c6-49b1-4ba1-94c0-1f3a04cad297.PNG)
 
 HOME
 ![home](https://user-images.githubusercontent.com/83118372/129350494-bc0ef3c8-84ad-4555-8e59-b3de1e7ce880.PNG)
